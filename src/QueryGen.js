@@ -54,7 +54,7 @@ function QueryGen() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             rows="4"
-            placeholder="Enter your SQL query you want in normal english"
+            placeholder="Enter the SQL query you want in plain English"
           />
 
           <label htmlFor="schema">Schema:</label>
