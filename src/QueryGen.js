@@ -7,7 +7,7 @@ function QueryGen() {
   const [schema, setSchema] = useState('');
   const [output, setOutput] = useState('');
   const { GoogleGenerativeAI } = require("@google/generative-ai");
-  const genAI = new GoogleGenerativeAI("AIzaSyBOAMVSC4E-_BOVRwdAYhEhB7qGCciPFwI");
+  const genAI = new GoogleGenerativeAI("AIzaSyCuPr-a0b997whe08f3uzgWk30KJsYdZY8");
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
   
   
